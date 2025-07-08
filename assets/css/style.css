@@ -1,0 +1,69 @@
+/* crna ozadina, bela slova*/
+body.dark-theme {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+/* za svaki div sa tekstom */
+body.dark-theme div,
+body.dark-theme p,
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme h4,
+body.dark-theme h5,
+body.dark-theme h6,
+body.dark-theme label,
+body.dark-theme span,
+body.dark-theme input,
+body.dark-theme textarea,
+body.dark-theme select,
+body.dark-theme button {
+  color: #fff !important;
+  border-color: #fff !important;
+  background-color: transparent !important;
+}
+
+/* pozadina za vic */
+body.dark-theme #vic,
+body.dark-theme #komentariDiv {
+  background-color: #000 !important; 
+  border: 1px solid #fff !important;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* dugme */
+body.dark-theme button {
+  background-color: #000 !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+/* prelaz preko dugmeta */
+body.dark-theme button:hover {
+  background-color: #222 !important;
+  color: #fff !important;
+}
+
+/* forma */
+body.dark-theme input,
+body.dark-theme textarea,
+body.dark-theme select {
+  background-color: #000 !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+/* skrolbar sa strane*/
+body.dark-theme ::-webkit-scrollbar {
+  width: 8px;
+}
+
+body.dark-theme ::-webkit-scrollbar-track {
+  background: #000;
+}
+
+body.dark-theme ::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 4px;
+}
